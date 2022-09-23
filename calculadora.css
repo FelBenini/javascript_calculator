@@ -1,0 +1,102 @@
+*{
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline 2px #7fa3c5;
+    text-underline-offset: 5px;
+    margin-top: 3%;
+}
+body{
+    background-color: #2c2f30;
+}
+main{
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18em;
+    min-height: 18em;
+    padding: 1em 1em 1.5em 1em;
+    border-radius: 8px;
+    box-shadow: inset 0px -6px 2px #1b1c1d3f;
+    margin-top: 5%;
+}
+#calculator{
+    text-align: center;
+}
+
+/*===buttons========================================================*/
+
+#buttons{
+    user-select: none;
+}
+button{
+    height: 60px;
+    width: 60px;
+    margin-top: 3px;
+    font-size: 1em;
+    color: whitesmoke;
+    background-color: #7fa3c5;
+    border: transparent;
+    border-radius: 3px;
+    box-shadow: inset 0px -4px 1px #00000023;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+button:hover{
+    background-color: #98b9d8;
+}
+button:active{
+    background-color: #759cc0;
+}
+.large{
+    width: 125px;
+    background-color: #f59b52;
+}
+.large:hover{
+    background-color: #faa45e;
+}
+.large:active{
+    background-color: #d8833d
+}
+
+/*===Result screen==============================================*/
+
+.result{
+    background-color: #141413;
+    color: #86d410;
+    text-align: right;
+    padding: 0.05em 1em;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 5px;
+    word-break: break-all;
+    min-height: 4.5em;
+}
+#result{
+    margin: 0.3em 0em;
+    font-size: 1.5em;
+    display: inline;
+}
+#operandus{
+    text-align: left;
+    display: inline;
+    font-size: 1.4em;
+    margin-right: 10px;
+}
+#prev_result{
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+#made-by{
+    font-size: 0.6em;
+    margin-top: 4em;
+    margin-left: 1.7em;
+    text-align: left;
+    color: #00000094;
+}
