@@ -34,7 +34,7 @@ function isMultiply(){
 }
 //numbers input//
 
-numbers.map( button => {
+numbers.map(button => {
     button.addEventListener("click", function(number){
         previous.textContent += number.target.innerText;
     })
